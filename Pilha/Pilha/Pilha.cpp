@@ -116,7 +116,7 @@ void push()
 
 	/*int valor = novo->valor;*/
 
-	cout << "valor "  <<  novo->valor  << " inserido na lista \n";
+	cout << "valor "  <<  novo->valor  << " inserido na pilha \n";
 }
 
 void pop()
@@ -124,7 +124,7 @@ void pop()
 	NO* aux = topo;
 
 	if (topo == NULL) {
-		cout << "lista vazia! \n";
+		cout << "pilha vazia! \n";
 		return;
 	}
 	
